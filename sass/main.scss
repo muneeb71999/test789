@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+
+.main-content{
+  max-width: 1200px;
+  width: 100%;
+  padding: 1rem;
+}
+
+@import "./_variables.scss";
+@import "./_utils.scss";
+@import "./_navbar.scss";
+@import "./_hero.scss";
+@import "./_section.scss";

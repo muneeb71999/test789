@@ -1,0 +1,41 @@
+.nav{
+  &-container{
+    width: 100%;
+    background: $white;
+  }
+
+  
+  max-width: 1200px;
+  width: 100%;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &-link{
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: $gray;
+    padding: 1rem;
+    margin: 0 2.2rem;
+    display: inline-block;
+    text-decoration: none;
+
+    &:hover{
+      color: $black;
+      transition: all 0.2s ease-in;
+    }
+  }
+
+  &-logo{
+    width: auto;
+    height: 5.6rem;
+  }
+
+  &-shop{
+    width: 6.8rem;
+    height: auto;
+    cursor: pointer;
+  }
+
+}
